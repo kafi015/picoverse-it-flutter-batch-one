@@ -7,7 +7,7 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Profile Screen'),
+        title: const Text('Profile Screen'),
         centerTitle: true,
         elevation: 5,
         backgroundColor: Colors.deepOrangeAccent,
